@@ -1,0 +1,158 @@
+/* Section Global */
+
+/* Section Main */
+section.main {
+    display: flex;
+}
+
+section.main div.video {
+
+}
+
+/* Section Main2 */
+
+section.main2 div {
+
+}
+
+/* Section About */
+
+section.about {
+    display: flex;
+    animation: fade 1s ease forwards;
+}
+
+section.about div.container div.row div.item {
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 6px;
+    background-color: #0D191F;
+    width: 420px;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+section.about div.container div.row div.item a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+section.about div.container div.row div.item p, span {
+    color: white;
+}
+
+section.about div.container div.row div.item div.item-footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section.about div.container div.row div.item img {
+    display: flex;
+    width: 396px;
+    height: 250px;
+    border-radius: 1.5rem;
+}
+
+
+/* Section Contact*/
+
+section.contact {
+    animation: fade 1s ease forwards;
+}
+
+section.contact h4 {
+    display: flex;
+    justify-content: center;
+}
+
+section.contact div.flex-container {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding-right: 3rem;
+    background-color: black;
+    background-position: center;
+}
+
+section.contact div.flex-container div.show-hide-buttons {
+    display: flex;
+}
+
+section.contact div.flex-container div.show-hide-buttons button {
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+section.contact div.flex-container div.show-hide-buttons button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+section.contact div.flex-container div.logos {
+    display: flex;
+}
+
+section.contact div.flex-container div.logos div {
+    margin: 1rem;
+    padding: 0.2rem;
+}
+
+section.contact div.flex-container div.logos img {
+    width: 2rem;
+    height: 2rem;
+}
+
+section.contact div.flex-container div.logos img:hover {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+section.contact div.flex-container2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #0D191F;
+}
+
+/* Section Contact*/ /* Form */
+
+section.contact div.flex-container2 form {
+    
+}
+
+section.contact div.flex-container2 form h4 {
+    color: white;
+}
+
+section.contact div.flex-container2 form label {
+    color: white;
+}
+
+section.contact div.flex-container2 form input {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+section.contact div.flex-container2 form textarea{
+    display: flex;
+}
+
+
+
+/* Keyframes */
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

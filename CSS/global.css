@@ -1,0 +1,42 @@
+body.background {
+    background-image: url("Your Background Video");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gradient {
+    background: rgb(72,65,199);
+    background: linear-gradient(90deg, rgba(72,65,199,1) 0%, rgba(8,115,167,1) 50%, rgba(165,195,209,1) 100%);
+}
+
+.background-dark {
+    background-color: #0D191F;
+}
+
+footer {
+    animation: fade 1s ease forwards;
+}
+
+section.main .loop-video {
+    width: 1296px;
+    height: 726px;
+    animation: fade 1s ease forwards;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
+span.auther {
+    color: #cd003b;
+}
+
+span.auther:hover {
+    color: #7A0025;
+}

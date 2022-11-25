@@ -1,0 +1,53 @@
+header {
+    /*                              // Look for a solution to fix this at the end.
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    */
+    background-color: black;
+    /* background-image: url(https://i.pinimg.com/originals/90/ca/e0/90cae0cf9b6cded6456a336101de9fd8.jpg);
+    background-position: center; */
+}
+
+.navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 4rem;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.navigation_bar .nav_item {
+    /* visibility: hidden; */           /* to but delay on */
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.navigation_bar .nav_item img {
+    width: 250px;
+    height: 100px;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+/* Fade Animation */
+
+.navigation_bar .nav_item {
+    animation: fade 1s ease forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

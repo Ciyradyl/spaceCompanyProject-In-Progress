@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/section.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/global.css">
+
+</head>
+
+<body class="background container">
+    <header>
+        <nav class="navigation_bar">
+            <div class="nav_item">
+                <a href="index.html"><h4>Beyond Horizon</h4></a>
+            </div>
+            <div class="nav_item">
+                <h4>SPACE & BEYOND</h1>
+                    <h6>THE ROAD TO MAKING HUMANITY MULTIPLANETARY</h6>
+            </div>
+            <div class="nav_item">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn">
+                                <a href="index.html">Home</a>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn">
+                                <a href="about.html">About</a>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn">
+                                <a href="contact.html">Contact</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="flex-container">
+            <div class="show-hide-buttons">
+                <button onclick="contactButton()">Contact Form</button>
+                <button onclick="suggestionButton()">Suggestion Form</button>
+            </div>
+            <div class="logos">
+                <div><a href="#"><img src="/MEDIA/youtube.png" alt="Youtube"></a></div>
+                <div><a href="#"><img src="/MEDIA/facebook.png" alt="Facebook"></a></div>
+                <div><a href="#"><img src="/MEDIA/whatsapp.png" alt="Whatsapp"></a></div>
+                <div><a href="#"><img src="/MEDIA/twitter.png" alt="Twitter"></a></div>
+                <div><a href="#"><img src="/MEDIA/instagram.png" alt="İnstagram"></a></div>
+            </div>
+        </div>
+        <div style="border-radius: 1rem;" class="flex-container2">
+            <div>
+                <form style="display: block;" id="myDIV" action="">
+                    <h4>Contact Form</h4>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="context">Context:</label>
+                    <textarea name="user_message" id="context" cols="50" rows="10"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+
+                <form style="display: none;"  id="myDIV2" action="">
+                    <h4>Suggestion Form</h4>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="context">Context:</label>
+                    <textarea name="user_message" id="context" cols="50" rows="10"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="containerBase">
+            <div class="container1">
+                <h4>Beyond Horizon</h4>
+            </div>
+            <div class="container2">
+              <a href="#">Careers</a>
+            </div>
+            <div class="container2">
+              <a href="#">Launches</a>
+            </div>
+            <div class="container2">
+              <a href="#">Updates</a>
+            </div>
+            <div class="container2">
+              <a href="#">Suppliers</a>
+            </div>
+            <div class="container2">
+              <a href="#">Privacy Policy</a>
+            </div>
+            <div class="container2">
+              <a href="#">FAQ</a>
+            </div>
+          </div>
+      </footer>
+
+      <script src="./JS/showhide.js"></script>
+      <script src="./bundles/bundle.js"></script>
+
+</body>
+
+</html>

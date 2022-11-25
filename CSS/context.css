@@ -1,0 +1,49 @@
+section.context {
+    background-color: #0D191F;
+    animation: fade 1s ease forwards;
+}
+
+section.context img {
+    border: 2px solid white;
+}
+
+section.context h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+section.context div.auther {
+    text-align: right;
+    color: #cd003b;
+    margin-top: 3.5rem;
+}
+
+section.context div.date {
+    text-align: right;
+    color: white;
+}
+
+section.context p {
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+section.context h3 {
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}

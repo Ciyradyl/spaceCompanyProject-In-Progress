@@ -1,0 +1,164 @@
+section.login {
+    color: white;
+    animation: fade 1s ease forwards;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+section.login div.flex-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+section.login div.flex-container div.show-hide-buttons {
+    margin-bottom: 0.5rem;
+}
+
+section.login div.flex-container div.show-hide-buttons button{
+    padding: 0.5rem;
+    width: 12rem;
+    border-radius: 8px;
+}
+
+section.login div.flex-container form {
+    width: 24rem;
+    padding: 1rem;
+}
+
+section.login div.flex-container form label, input{
+    display: flex;
+}
+
+section.login div.flex-container form h4 {
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+section.login div.flex-container form input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 0.8rem;
+
+}
+
+section.login div.flex-container form input[type = text] {
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+}
+
+section.login div.flex-container form input[type = password] {
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+}
+
+section.login div.flex-container form input[type = email] {
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+}
+
+section.login div.flex-container form input:last-child {
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 4px 4px;
+    background-color: #DD5741;
+}
+
+section.login div.flex-container form input:last-child:hover {
+    opacity: 0.6;
+}
+
+section.login div.flex-container form div.footnotes {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.login div.flex-container form div.footnotes div {
+    display: flex;
+    padding: 1rem;
+}
+
+section.login div.flex-container form div.footnotes div input {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    top: 7px;
+    margin-right: 3px;
+    
+}
+
+section.login div.flex-container form div a {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+section.login div.flex-container a:hover {
+     opacity: 0.6;
+}
+
+/* Logos */
+
+section.login div.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+section.login div.logos div img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* Socials Part */
+
+/* Renkler Placeholder */
+
+div.card-1 {
+    padding: 3rem;
+    background-color: #0D191F;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    border: 2px solid black;
+}
+
+div.card-2 {
+    padding: 3rem;
+    background-color: burlywood;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+div.card-2 h4 {
+    margin-top: 4rem;
+}
+
+div.card-2 div.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+div.card-2 div.socials button {
+    margin-top: 1rem;
+    padding: 0.3rem 0;
+    width: 70%;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 4px 4px;
+}
+
+div.card-2 div.socials button:hover {
+    opacity: 0.9;
+}
