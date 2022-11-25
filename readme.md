@@ -24,5 +24,7 @@ ROADMAP
 
 
 ∞ Fully functional user, admin database and permission system. (Basic SAP like stuff, bcrypt, JSON Web Token)
+
 ∞ Encrypted password script.
+
 ∞ Implementing the code to Angular or React.
