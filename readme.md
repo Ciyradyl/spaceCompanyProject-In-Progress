@@ -23,8 +23,8 @@ ROADMAP
 - Functional Login and Register system with social media interactions.
 
 
-∞ Fully functional user, admin database and permission system. (Basic SAP like stuff, bcrypt, JSON Web Token)
+- ∞ Fully functional user, admin database and permission system. (Basic SAP like stuff, bcrypt, JSON Web Token)
 
-∞ Encrypted password script.
+- ∞ Encrypted password script.
 
-∞ Implementing the code to Angular or React.
+- ∞ Implementing the code to Angular or React.
