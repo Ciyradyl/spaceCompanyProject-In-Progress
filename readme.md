@@ -8,11 +8,15 @@ npm start // for local server
 
 ROADMAP
 
+Already Done
+
 + 3 basic user interface part which will cover Home, About and Contact pages. 
 + Login and Register screen interface design for further implementations.
 + Fake Rest API. (json-server)
 + Local server settings.
 + Filler logo and background video.
+
+Upcoming Features
 
 - A unique company logo for navigation bar and footer.
 - A unique background video for Home page.
@@ -22,9 +26,8 @@ ROADMAP
 - Backend connections between the items of the context page and their individual pages.
 - Functional Login and Register system with social media interactions.
 
+Maybe
 
-- ∞ Fully functional user, admin database and permission system. (Basic SAP like stuff, bcrypt, JSON Web Token)
-
-- ∞ Encrypted password script.
-
-- ∞ Implementing the code to Angular or React.
+- Fully functional user, admin database and permission system. (Basic SAP like stuff, bcrypt, JSON Web Token)
+- Encrypted password script.
+- Implementing the code to Angular or React.
