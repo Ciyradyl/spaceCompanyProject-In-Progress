@@ -1,3 +1,5 @@
+Work in progress, not a final product. Might have some bad codding, I am still in learning progress.
+
 IMPORTANT
 
 json-server --watch API/post.json // for fake Rest API
