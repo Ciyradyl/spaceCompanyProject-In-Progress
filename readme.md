@@ -14,7 +14,7 @@ Already Done
 
 + 3 basic user interface part which will cover Home, About and Contact pages. 
 + Login and Register screen interface design for further implementations.
-+ Fake Rest API. (json-server)
++ A page working along with Fake Rest API. (json-server)
 + Local server settings.
 + Filler logo and background video.
 
